@@ -8,6 +8,7 @@ A graphical autoclicker built with Kivy. Select a target window to filter clicks
 
 * [Features](#features)
 * [Installation](#installation)
+* [Requirements File](#requirements-file)
 * [Prerequisites](#prerequisites)
 * [Launching the App](#launching-the-app)
 * [GUI Overview](#gui-overview)
@@ -40,29 +41,29 @@ A graphical autoclicker built with Kivy. Select a target window to filter clicks
    python -m venv .venv
    .\.venv\Scripts\Activate.ps1
    ```
-3. Install dependencies:
+3. Install dependencies from `requirements.txt`:
 
    ```powershell
    pip install -r requirements.txt
    ```
 
-   Or install modules directly:
+## Requirements File
 
-   ```powershell
-   pip install pyautogui keyboard pynput kivy pywin32
-   ```
+A `requirements.txt` file is included at the root of the project. It lists all necessary packages:
+
+```
+pyautogui
+keyboard
+pynput
+kivy
+pywin32
+```
 
 ## Prerequisites
 
 * **Python** 3.7 or higher
 * **Windows** (for `pywin32` and window filtering)
-* Python packages:
-
-  * `pyautogui`
-  * `keyboard`
-  * `pynput`
-  * `kivy`
-  * `pywin32` (optional: window filter works only if installed)
+* The packages specified in `requirements.txt` (installs via `pip install -r requirements.txt`)
 
 ## Launching the App
 
