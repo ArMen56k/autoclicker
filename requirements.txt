@@ -1,0 +1,5 @@
+pyautogui
+keyboard
+pynput
+kivy
+pywin32
