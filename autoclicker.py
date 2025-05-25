@@ -1,5 +1,4 @@
-'''Autoclicker Kivy – v4.0
-pip install pyautogui keyboard pynput kivy pywin32
+'''Autoclicker python kivy
 '''
 # -*- coding: utf-8 -*-
 import threading
